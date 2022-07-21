@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Boxer",
+    "precio": 2500,
+    "thumbnail": "url imagen producto",
+    "id": 1
+  },
+  {
+    "title": "Boxer",
+    "precio": 2500,
+    "thumbnail": "url imagen producto",
+    "id": 2
+  },
+  {
+    "title": "Boxer",
+    "precio": 2500,
+    "thumbnail": "url imagen producto",
+    "id": 3
+  },
+  {
+    "title": "Boxer",
+    "precio": 2500,
+    "thumbnail": "url imagen producto",
+    "id": 4
+  }
+]

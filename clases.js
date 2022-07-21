@@ -36,5 +36,4 @@ usuario1.addBook('Los secretos de la mente millonaria', 'Harv Eker')
 
 console.log(usuario1.libros)
 
-console.log(`Nombre de los libros: ${usuario1.getBookNames()}`)
 
