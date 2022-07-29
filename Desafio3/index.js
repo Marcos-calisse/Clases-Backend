@@ -19,7 +19,7 @@ class Contenedor{
         try {
             let dataArchivo = await fs.promises.readFile(this.ruta, 'utf-8');
             let dataArchivoParse = JSON.parse(dataArchivo);
-            let producto = dataArchivoParse.find(producto => producto.id === id);
+            let producto = dataArchivoParse.find(producto => producto.id === id)
             if (producto) {
                 return producto
             } else {

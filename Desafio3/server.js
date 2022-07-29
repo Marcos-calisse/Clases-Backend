@@ -26,8 +26,9 @@ app.get('/productos', async (req, res) => {
 
 app.get('/productoRandom', async (req, res) => {
     try {
-        const products = await productos.getProductRandom(1);
-        res.send(products)
+        let random = Math.floor(Math.random() * 4) +1;
+        const product = await productos.getProductRandom(random);
+        res.send(product)
     } catch (error) {
         res.send(error)
     }
