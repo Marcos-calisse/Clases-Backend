@@ -1,0 +1,25 @@
+
+# POST http://localhost:8080/api/productos HTTP/1.1
+# content-type: application/json
+
+# {
+#     "producto": "id"
+# }
+
+
+# PUT http://localhost:8080/api/productos/3 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "title": "boxer",
+#     "price": "boxer",
+#     "thumbnail": "boxer",
+# }
+
+
+# DELETE http://localhost:8080/api/productos/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "producto 1": "boxer"
+# }
